@@ -4,18 +4,21 @@ Hexapawn](http://www.cs.williams.edu/~freund/cs136-073/GardnerHexapawn.pdf),
 which was designed to be solved by a very simple type of AI implemented with
 matchboxes.
 
-https://www.instructables.com/id/Matchbox-Mini-Chess-Learning-Machine/
+If you want to build a physical version of the game, the [Matchbox Mini Chess
+Learning Machine
+instructable](https://www.instructables.com/id/Matchbox-Mini-Chess-Learning-Machine/
+) may help.
 
 ## Game overview
-There are three pawns of two colours on a 3x3 board. 
+There are three pawns of two colours on a 3x3 board.
 
-There are two legal moves: 
-- move a pawn straight forward, or 
+There are two legal moves:
+- move a pawn straight forward, or
 - move a pawn diagonally left or right to capture an enemy pawn, which is
   removed from the board.
 
-Players alternate taking turns until one of three end conditions is achieved: 
-- a pawn advances to the third row, 
+Players alternate taking turns until one of three end conditions is achieved:
+- a pawn advances to the third row,
 - all enemy pawns are captured, or
 - a position is achieved in which the enemy has no legal moves.
 
@@ -37,5 +40,3 @@ wins.
 
 A similar type of machine can be built to play
 [nim](https://en.wikipedia.org/wiki/Nim).
-
-
